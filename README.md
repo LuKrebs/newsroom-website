@@ -4,4 +4,4 @@
 
 <p>Below is a example image giving some idea about what this project looks like.</p>
 
-<img src="" />
+<a href="https://codepen.io/LuKrebs/full/ZKGQxg/"><img src="https://github.com/LuKrebs/newsroom-website/blob/master/image.png"/></a>
