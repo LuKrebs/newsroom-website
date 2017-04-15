@@ -1,0 +1,243 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+.container {
+  max-width: 1160px;
+}
+
+/* header */
+
+.header {
+	background-color: black;
+	height: 80px;
+	line-height: 70px;
+}
+
+.header img {
+	width: 220px;
+	vertical-align: middle;
+	
+}
+
+.header form input {
+	background-color: black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	border-color: white;
+	margin-right: 10px;
+	vertical-align: middle;
+	position: relative;
+}
+
+.header .container .pull-right input:focus {
+	box-shadow: none;
+}
+
+.header .container .pull-right input:hover {
+	border-color: #1A77FF;	
+}
+
+
+.header .container .pull-right form button {
+	background-color: black;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 0;
+	vertical-align: middle;
+	border-bottom: 1px solid #1A77FF;
+	color: rgba(255,255,255,0.5);
+}
+
+.header .container .pull-right form button:hover {
+	color: white;
+}
+
+/* Menu */
+
+.menu {
+	background-color: #152230;
+}
+
+.menu .container .pull-left {
+	margin-left: -40px;
+}
+
+.menu .container ul a li {
+	list-style: none;
+	float: left;
+	display: inline-block;
+	padding: 15px 20px;
+	color: rgba(255,255,255,0.7);
+}
+}
+
+.menu .container ul a {
+	text-decoration: none;
+}
+
+.menu .container ul a li:hover {
+	background-color: #1A77FF; 
+}
+
+/* Main*/
+
+.main {
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg") no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
+
+.main .container p {
+	color: white;
+	
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 18px;
+}
+
+.main .container p.first {
+	margin-top: 40px;
+	margin-bottom: 60px;
+	font-size: 12px;
+}
+
+.main .container h1 {
+	color: white;
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 60px;
+	margin-bottom: 20px;
+
+}
+
+.main .container h1.ult {
+	margin-bottom: 35px;
+
+}
+
+.main .container h1 span {
+  border-bottom-color: rgb(26, 119, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  box-sizing: border-box;
+}
+
+/* Supporting */
+
+.supporting {
+	margin-bottom: 60px;
+}
+
+.supporting .container .row {
+	background-color: white;
+	margin-top: 60px;
+}
+
+.supporting .container .news {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-weight: 900;
+}
+
+.supporting .container .sidebar {
+	background-color: #152230;
+	color: white;
+}
+
+.supporting .container p.march {
+	font-size: 14px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	
+}
+
+.supporting .container h3.march {
+	margin-left: 20px;
+}
+
+.supporting .container h4 {
+	margin-bottom: 20px;
+}
+
+.supporting .row h4 span.march {
+  border-bottom-color: rgb(26, 119, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  font-size: 22px;
+  
+}
+
+.supporting .row h3.november {
+	margin-left: 20px;
+}
+
+.supporting .row h4 span.november {
+  border-bottom-color: rgb(26, 119, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.supporting .container p.november {
+	font-size: 14px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.supporting .row h4.final {
+	margin-bottom: 50px;
+}
+
+.supporting .container .row .col-md-12 {
+	background-color: #F2F2F2;
+}
+
+/* Footer */
+
+/* Footer section*/
+.footer {
+  height: 90px;
+  line-height: 80px;
+  background-color: black;
+}
+
+.footer .container ul {
+  margin-left: -30px;
+}
+
+.footer .container ul li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer .container ul a {
+  color: #E2E2E2;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-left: 20px;
+  padding: 5px 10px;
+} 
+
+.footer .container ul a:hover {
+  padding: 5px 10px;
+  background-color: rgb(26, 119, 255);
+  color: #EEEEEE;
+}
+
+.footer .container .pull-right {
+  margin-right: 20px; 
+ }
