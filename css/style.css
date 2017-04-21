@@ -91,7 +91,7 @@ body {
 /* Main*/
 
 .main {
-	background: url("https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg") no-repeat center center;
+	background: url("../img/bass-bg.jpg") no-repeat center center;
 	background-size: cover;
 	height: 500px;
 }
